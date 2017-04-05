@@ -1,0 +1,6 @@
+{{#comments}}
+    <div class="comment">
+        <div>{{content}}</div>
+        <div class="attribution">Posted by {{name}} at {{date}}</div>
+    </div>
+{{/comments}}

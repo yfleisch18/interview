@@ -1,0 +1,7 @@
+<div id= 'pictures'>
+    {{#pictures}}
+    <div id='pic'>
+    <img src= "{{photoUrl}}" alt="{{photoKey}}" />
+    </div>
+    {{/pictures}}
+</div>

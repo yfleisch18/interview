@@ -1,0 +1,9 @@
+{{#posts}}
+<div class="aPost">
+    <a href ='/fullPost?postId={{_id.S}}'>
+        <h2>{{title.S}}</h2>
+        <h3>by {{name.S}} at {{date.S}}</h3>
+        <div class='content'>{{content.S}}</div>
+    </a>
+</div>
+{{/posts}}

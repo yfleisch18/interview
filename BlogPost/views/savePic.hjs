@@ -1,0 +1,6 @@
+<form id='savePicForm' method='post' encType="multipart/form-data">
+<div id='uploadInput'>
+   <input id="photoupload" type="file" name= "fileToUpload" accept="image/*"> 
+</div>
+<button id='submit'>Submit</button>
+</form>
